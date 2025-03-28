@@ -14,38 +14,38 @@ interface ProcessStepProps {
 const steps: Omit<ProcessStepProps, 'isLast'>[] = [
   {
     number: 1,
-    title: "Initial Consultation",
-    description: "A comprehensive discussion to understand your specific challenges, goals, and expectations.",
+    title: "Первичная консультация",
+    description: "Всесторонняя беседа для понимания ваших конкретных проблем, целей и ожиданий.",
     icon: MessageSquare
   },
   {
     number: 2,
-    title: "Assessment & Analysis",
-    description: "In-depth evaluation using validated psychological tools to identify patterns and opportunity areas.",
+    title: "Оценка и анализ",
+    description: "Глубокая оценка с использованием проверенных психологических инструментов для выявления паттернов и областей возможностей.",
     icon: ClipboardList
   },
   {
     number: 3,
-    title: "Strategy Development",
-    description: "Custom intervention plan tailored to address your specific needs and achieve your desired outcomes.",
+    title: "Разработка стратегии",
+    description: "Индивидуальный план вмешательства, адаптированный для решения ваших конкретных потребностей и достижения желаемых результатов.",
     icon: Lightbulb
   },
   {
     number: 4,
-    title: "Implementation",
-    description: "Guided application of evidence-based techniques and practices in real-world contexts.",
+    title: "Реализация",
+    description: "Управляемое применение научно обоснованных методик и практик в реальных условиях.",
     icon: Target
   },
   {
     number: 5,
-    title: "Progress Monitoring",
-    description: "Regular check-ins to measure improvement, adjust strategies, and overcome obstacles.",
+    title: "Мониторинг прогресса",
+    description: "Регулярные проверки для измерения улучшений, корректировки стратегий и преодоления препятствий.",
     icon: LineChart
   },
   {
     number: 6,
-    title: "Maintenance & Growth",
-    description: "Long-term strategies to sustain positive changes and continue development independently.",
+    title: "Поддержание и рост",
+    description: "Долгосрочные стратегии для сохранения позитивных изменений и продолжения самостоятельного развития.",
     icon: CheckCircle
   }
 ];

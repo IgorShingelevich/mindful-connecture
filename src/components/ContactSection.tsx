@@ -20,10 +20,10 @@ const ContactSection = () => {
             {/* Contact Information */}
             <div>
               <div className="mb-8">
-                <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
+                <h2 className="text-3xl font-bold mb-4">Свяжитесь с нами</h2>
                 <p className="text-lg text-muted-foreground">
-                  Ready to start your journey towards improved mental wellbeing and performance?
-                  Contact me today to schedule a consultation or learn more about my services.
+                  Готовы начать путь к улучшению психического благополучия и эффективности?
+                  Свяжитесь со мной сегодня, чтобы записаться на консультацию или узнать больше о моих услугах.
                 </p>
               </div>
               
@@ -33,7 +33,7 @@ const ContactSection = () => {
                     <Phone className="h-5 w-5 text-psychPurple-600" />
                   </div>
                   <div>
-                    <h3 className="font-medium mb-1">Phone</h3>
+                    <h3 className="font-medium mb-1">Телефон</h3>
                     <p className="text-muted-foreground">(555) 123-4567</p>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ const ContactSection = () => {
                     <Mail className="h-5 w-5 text-psychPurple-600" />
                   </div>
                   <div>
-                    <h3 className="font-medium mb-1">Email</h3>
+                    <h3 className="font-medium mb-1">Эл. почта</h3>
                     <p className="text-muted-foreground">dr.johnson@mindfulconnections.com</p>
                   </div>
                 </div>

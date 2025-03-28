@@ -16,22 +16,22 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           <a href="#" className="flex items-center">
-            <span className="text-2xl font-bold text-psychPurple-700">MindfulConnections</span>
+            <span className="text-2xl font-bold text-psychPurple-700">МайндфулКоннекшнс</span>
           </a>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
-          <a href="#services" className="font-medium animated-underline">Services</a>
-          <a href="#about" className="font-medium animated-underline">About</a>
-          <a href="#testimonials" className="font-medium animated-underline">Testimonials</a>
-          <a href="#faq" className="font-medium animated-underline">FAQ</a>
-          <a href="#contact" className="font-medium animated-underline">Contact</a>
+          <a href="#services" className="font-medium animated-underline">Услуги</a>
+          <a href="#about" className="font-medium animated-underline">О нас</a>
+          <a href="#testimonials" className="font-medium animated-underline">Отзывы</a>
+          <a href="#faq" className="font-medium animated-underline">Вопросы</a>
+          <a href="#contact" className="font-medium animated-underline">Контакты</a>
         </nav>
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button className="bg-psychPurple-600 hover:bg-psychPurple-700">Book a Consultation</Button>
+          <Button className="bg-psychPurple-600 hover:bg-psychPurple-700">Записаться на консультацию</Button>
         </div>
 
         {/* Mobile Menu Button */}

@@ -20,7 +20,7 @@ const ServiceCard = ({ title, description, benefits, icon: Icon }: ServiceCardPr
       <p className="text-muted-foreground mb-4">{description}</p>
       
       <div className="space-y-2">
-        <p className="font-medium text-sm text-psychPurple-700">Benefits:</p>
+        <p className="font-medium text-sm text-psychPurple-700">Преимущества:</p>
         <ul className="space-y-1">
           {benefits.map((benefit, index) => (
             <li key={index} className="flex items-start">
@@ -49,49 +49,49 @@ const individualServices = [
     title: "Stress Management",
     description: "Learn practical techniques to manage stress effectively and build resilience in challenging situations.",
     benefits: [
-      "Identify personal stress triggers",
-      "Develop tailored coping mechanisms",
-      "Build long-term stress resilience"
+      "Определение личных триггеров стресса",
+      "Разработка индивидуальных механизмов совладания",
+      "Формирование долгосрочной устойчивости к стрессу"
     ],
     icon: Battery
   },
   {
-    title: "Productivity Improvement",
-    description: "Enhance your focus, organization, and time management to achieve more with less stress.",
+    title: "Повышение продуктивности",
+    description: "Улучшение концентрации, организации и управления временем для достижения большего с меньшим стрессом.",
     benefits: [
-      "Create personalized productivity systems",
-      "Overcome attention challenges",
-      "Balance efficiency and wellbeing"
+      "Создание персонализированных систем продуктивности",
+      "Преодоление проблем с вниманием",
+      "Баланс эффективности и благополучия"
     ],
     icon: LineChart
   },
   {
-    title: "Cognitive Enhancement",
-    description: "Optimize your mental processing, decision-making, and problem-solving capabilities.",
+    title: "Повышение эффективности",
+    description: "Оптимизация когнитивных способностей и эмоциональной регуляции для достижения максимальной производительности в выбранной области.",
     benefits: [
-      "Improve decision-making quality",
-      "Enhance creative problem-solving",
-      "Develop mental flexibility"
+      "Улучшение качества принятия решений",
+      "Развитие творческого решения проблем",
+      "Развитие ментальной гибкости"
     ],
     icon: Brain
   },
   {
-    title: "Career Development",
-    description: "Navigate career transitions, clarify your professional direction, and overcome workplace challenges.",
+    title: "Развитие карьеры",
+    description: "Сопровождение в карьерных переходах и преодолении трудностей при сохранении психологического благополучия и профессиональной удовлетворенности.",
     benefits: [
-      "Gain clarity on career direction",
-      "Develop strategies for growth",
-      "Build professional confidence"
+      "Прояснение карьерного направления",
+      "Разработка стратегий роста",
+      "Укрепление профессиональной уверенности"
     ],
     icon: Compass
   },
   {
-    title: "Behavioral Change",
-    description: "Transform unwanted habits and behaviors into positive patterns that serve your goals.",
+    title: "Изменение поведения",
+    description: "Трансформация нежелательных привычек и поведения в позитивные паттерны, способствующие достижению ваших целей.",
     benefits: [
-      "Break persistent negative patterns",
-      "Design effective habit systems",
-      "Create lasting behavioral change"
+      "Разрушение устойчивых негативных паттернов",
+      "Разработка эффективных систем привычек",
+      "Создание устойчивых поведенческих изменений"
     ],
     icon: BrainCircuit
   }
@@ -102,10 +102,10 @@ const IndividualServices = () => {
     <section id="individual-services" className="py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold mb-4">Individual Services</h2>
+          <h2 className="text-3xl font-bold mb-4">Индивидуальные услуги</h2>
           <p className="text-lg text-muted-foreground">
-            Personalized psychological services designed to address your unique challenges,
-            enhance your mental wellbeing, and help you achieve your fullest potential.
+            Персонализированные психологические услуги, разработанные для решения ваших уникальных задач,
+            улучшения психологического благополучия и помощи в раскрытии вашего полного потенциала.
           </p>
         </div>
         

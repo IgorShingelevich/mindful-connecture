@@ -37,7 +37,7 @@ const ServiceCategory = ({
         asChild
       >
         <a href={href}>
-          Learn More
+          Подробнее
           <ChevronRight className="h-4 w-4 ml-2" />
         </a>
       </Button>
@@ -50,25 +50,25 @@ const ServicesOverview = () => {
     <section id="services" className="py-16 bg-muted/50">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Наши услуги</h2>
           <p className="text-lg text-muted-foreground">
-            Specialized psychological services tailored to the needs of both individuals and teams, 
-            helping you achieve your mental health and performance goals.
+            Специализированные психологические услуги, адаптированные под потребности как частных лиц, так и команд,
+            помогающие вам достичь целей в области психического здоровья и эффективности.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <ServiceCategory 
-            title="Individual Services" 
-            description="Personalized therapeutic approaches to help you overcome challenges, build resilience, and thrive in your personal and professional life."
+            title="Индивидуальные услуги" 
+            description="Персонализированные терапевтические подходы, помогающие преодолеть трудности, развить устойчивость и достичь успеха в личной и профессиональной жизни."
             icon={User}
             gradient="bg-gradient-to-br from-white to-psychPurple-50/50"
             href="#individual-services"
           />
           
           <ServiceCategory 
-            title="Team & Group Services" 
-            description="Evidence-based interventions to enhance team dynamics, improve communication, resolve conflicts, and boost collective performance."
+            title="Услуги для команд и групп" 
+            description="Научно обоснованные методы улучшения командной динамики, совершенствования коммуникации, разрешения конфликтов и повышения коллективной эффективности."
             icon={Users}
             gradient="bg-gradient-to-br from-white to-psychBlue-50/50"
             href="#team-services"

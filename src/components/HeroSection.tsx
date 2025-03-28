@@ -12,20 +12,20 @@ const HeroSection = () => {
           {/* Text Content */}
           <div className="md:w-1/2 space-y-6 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground">
-              Expert Psychological Services for <span className="text-psychPurple-600">Individuals & Teams</span>
+              Экспертные психологические услуги для <span className="text-psychPurple-600">частных лиц и команд</span>
             </h1>
             
             <p className="text-xl text-muted-foreground">
-              Specialized therapeutic approaches to help you and your team achieve mental wellbeing and peak performance.
+              Специализированные терапевтические подходы, помогающие вам и вашей команде достичь психического благополучия и максимальной эффективности.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-2">
               <Button className="bg-psychPurple-600 hover:bg-psychPurple-700 text-white px-6 py-6">
-                Book a Consultation
+                Записаться на консультацию
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button variant="outline" className="border-psychPurple-200 text-psychPurple-700 hover:bg-psychPurple-50 px-6 py-6">
-                Explore Services
+                Изучить услуги
               </Button>
             </div>
             
@@ -35,7 +35,7 @@ const HeroSection = () => {
                 <div className="w-8 h-8 rounded-full bg-psychBlue-200 flex items-center justify-center text-psychBlue-700 font-medium">S</div>
                 <div className="w-8 h-8 rounded-full bg-psychPurple-200 flex items-center justify-center text-psychPurple-700 font-medium">M</div>
               </div>
-              <span>Trusted by 200+ individuals and teams</span>
+              <span>Нам доверяют более 200 клиентов и команд</span>
             </div>
           </div>
           
@@ -49,8 +49,8 @@ const HeroSection = () => {
                 className="w-full h-full object-cover object-center z-10 mix-blend-overlay"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background/90 to-transparent p-6 z-20">
-                <p className="text-lg font-medium">Dr. Sarah Johnson, PhD</p>
-                <p className="text-sm text-muted-foreground">Clinical Psychologist • 15+ Years Experience</p>
+                <p className="text-lg font-medium">Др. Сара Джонсон, PhD</p>
+                <p className="text-sm text-muted-foreground">Клинический психолог • Более 15 лет опыта</p>
               </div>
             </div>
             

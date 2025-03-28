@@ -15,37 +15,37 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
   {
-    quote: "Working with Dr. Johnson transformed my approach to stress and productivity. I've seen remarkable improvements in both my work performance and personal wellbeing.",
-    name: "Michael Chen",
-    title: "Product Manager, Tech Industry",
+    quote: "Работа с доктором Джонсон изменила мой подход к стрессу и продуктивности. Я заметил значительные улучшения как в рабочей эффективности, так и в личном благополучии.",
+    name: "Михаил Чен",
+    title: "Продакт-менеджер, IT-индустрия",
     rating: 5,
     type: 'individual'
   },
   {
-    quote: "Our leadership team was facing communication challenges that were impacting productivity. Dr. Johnson's group sessions helped us develop a framework for effective dialogue that has completely transformed our dynamics.",
-    name: "Emma Rodriguez",
-    title: "CEO, Marketing Agency",
+    quote: "Наша команда руководителей столкнулась с проблемами в коммуникации, которые влияли на продуктивность. Групповые сессии с доктором Джонсон помогли нам разработать структуру эффективного диалога, что полностью преобразило нашу динамику.",
+    name: "Эмма Родригес",
+    title: "CEO, Маркетинговое агентство",
     rating: 5,
     type: 'team'
   },
   {
-    quote: "I struggled with motivation and focus for years. The personalized strategies Dr. Johnson helped me develop have made a sustainable difference in my daily life and career progression.",
-    name: "David Kumar",
-    title: "Software Engineer",
+    quote: "Я годами боролся с проблемами мотивации и концентрации. Персонализированные стратегии, которые помогла мне разработать доктор Джонсон, создали устойчивые изменения в моей повседневной жизни и карьерном росте.",
+    name: "Давид Кумар",
+    title: "Программист",
     rating: 5,
     type: 'individual'
   },
   {
-    quote: "Dr. Johnson facilitated our team retreat and provided invaluable insights into our group dynamics. We now have practical tools to navigate conflicts and leverage our diverse perspectives.",
-    name: "Sarah Thompson",
-    title: "HR Director, Healthcare",
+    quote: "Доктор Джонсон провела наш командный ретрит и предоставила бесценные идеи о нашей групповой динамике. Теперь у нас есть практические инструменты для разрешения конфликтов и использования разных точек зрения.",
+    name: "Сара Томпсон",
+    title: "HR-директор, Здравоохранение",
     rating: 5,
     type: 'team'
   },
   {
-    quote: "The cognitive enhancement techniques I learned from Dr. Johnson have significantly improved my decision-making abilities under pressure. Truly life-changing work.",
-    name: "James Wilson",
-    title: "Financial Analyst",
+    quote: "Техники когнитивного улучшения, которым я научился у доктора Джонсон, значительно улучшили мои способности принимать решения под давлением. Действительно меняющая жизнь работа.",
+    name: "Джеймс Уилсон",
+    title: "Финансовый аналитик",
     rating: 5,
     type: 'individual'
   },

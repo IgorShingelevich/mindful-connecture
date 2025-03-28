@@ -45,52 +45,52 @@ const teamServices = [
     icon: UsersRound
   },
   {
-    title: "Collective Problem Solving",
-    description: "Enhance your team's capacity to tackle complex challenges through improved cognitive collaboration.",
+    title: "Коллективное решение проблем",
+    description: "Повышение способности вашей команды решать сложные задачи через улучшенное когнитивное взаимодействие.",
     benefits: [
-      "Develop structured problem-solving approaches",
-      "Maximize cognitive diversity in teams",
-      "Overcome common decision-making biases"
+      "Развитие системного решения проблем",
+      "Поощрение инновационного мышления",
+      "Построение совместного принятия решений"
     ],
     icon: Puzzle
   },
   {
-    title: "Task Delegation Training",
-    description: "Optimize workflow distribution and develop effective delegation practices within your team.",
+    title: "Обучение делегированию",
+    description: "Оптимизация распределения рабочих процессов и развитие эффективных практик делегирования в вашей команде.",
     benefits: [
-      "Create effective delegation frameworks",
-      "Match tasks to team member strengths",
-      "Build accountability systems"
+      "Создание эффективных структур делегирования",
+      "Соответствие задач сильным сторонам членов команды",
+      "Построение систем ответственности"
     ],
     icon: CalendarClock
   },
   {
-    title: "Performance Optimization",
-    description: "Maximize team productivity and effectiveness while maintaining wellbeing and preventing burnout.",
+    title: "Оптимизация производительности",
+    description: "Максимизация продуктивности и эффективности команды при сохранении благополучия и предотвращении выгорания.",
     benefits: [
-      "Identify and remove performance blockers",
-      "Implement sustainable productivity practices",
-      "Create high-performance team culture"
+      "Выявление и устранение препятствий производительности",
+      "Внедрение устойчивых практик продуктивности",
+      "Создание высокоэффективной командной культуры"
     ],
     icon: BarChart3
   },
   {
-    title: "Goal Achievement Systems",
-    description: "Develop frameworks for setting and achieving meaningful team goals with clear metrics and accountability.",
+    title: "Системы достижения целей",
+    description: "Разработка структур для постановки и достижения значимых командных целей с четкими метриками и ответственностью.",
     benefits: [
-      "Create aligned and motivating goals",
-      "Design effective progress tracking systems",
-      "Build team commitment to outcomes"
+      "Создание согласованных и мотивирующих целей",
+      "Разработка эффективных систем отслеживания прогресса",
+      "Формирование командной приверженности результатам"
     ],
     icon: Target
   },
   {
-    title: "Communication Enhancement",
-    description: "Transform team communication patterns to improve clarity, reduce conflict, and enhance collaboration.",
+    title: "Улучшение коммуникации",
+    description: "Трансформация моделей командного общения для повышения ясности, снижения конфликтов и улучшения сотрудничества.",
     benefits: [
-      "Improve message clarity and precision",
-      "Develop active listening practices",
-      "Create effective feedback loops"
+      "Повышение ясности и точности сообщений",
+      "Развитие практик активного слушания",
+      "Создание эффективных циклов обратной связи"
     ],
     icon: MessageSquareText
   }
@@ -101,10 +101,10 @@ const TeamServices = () => {
     <section id="team-services" className="py-16 bg-muted/50">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold mb-4">Team & Group Services</h2>
+          <h2 className="text-3xl font-bold mb-4">Услуги для команд</h2>
           <p className="text-lg text-muted-foreground">
-            Specialized interventions designed to enhance team functioning, improve group dynamics,
-            and help organizations achieve their collective potential.
+            Научно обоснованные методы, направленные на улучшение командной динамики, совершенствование коммуникации
+            и повышение коллективной эффективности в профессиональной среде.
           </p>
         </div>
         

@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { UsersRound, Target, PuzzlePiece, CalendarClock, BarChart3, MessageSquareText } from 'lucide-react';
+import { UsersRound, Target, Puzzle, CalendarClock, BarChart3, MessageSquareText } from 'lucide-react';
 
 interface ServiceCardProps {
   title: string;
@@ -53,7 +52,7 @@ const teamServices = [
       "Maximize cognitive diversity in teams",
       "Overcome common decision-making biases"
     ],
-    icon: PuzzlePiece
+    icon: Puzzle
   },
   {
     title: "Task Delegation Training",
